@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import { MotionWrapper } from "@/components/motion-wrapper";
@@ -45,11 +46,12 @@ function ProjectCard({
             }`}
           />
           {/* Actual project image */}
-          <img
+          <Image
             src={project.image}
             alt={project.title}
-            className="absolute inset-0 w-full h-full object-cover z-[1] group-hover:scale-105 transition-transform duration-500"
-            loading="lazy"
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw"
+            className="object-cover z-[1] group-hover:scale-105 transition-transform duration-500"
           />
         </div>
 

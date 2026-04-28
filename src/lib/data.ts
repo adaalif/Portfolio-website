@@ -55,7 +55,7 @@ export const projects: Project[] = [
     tech: ["Python", "FastAPI", "React", "TensorFlow", "Docker"],
     github: "https://github.com/adaalif",
     live: "#",
-    image: "/projects/financial-tracker.png",
+    image: "/projects/financial-tracker.webp",
     featured: true,
   },
   {
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     tech: ["Python", "Scikit-learn", "React", "FastAPI", "Docker"],
     github: "https://github.com/adaalif",
     live: "#",
-    image: "/projects/ingrevia.png",
+    image: "/projects/ingrevia.webp",
     featured: true,
   },
   {
@@ -79,7 +79,7 @@ export const projects: Project[] = [
     tech: ["Python", "FastAPI", "React", "Docker", "LangChain"],
     github: "https://github.com/adaalif/RAG",
     live: "#",
-    image: "/projects/RAG.png",
+    image: "/projects/RAG.webp",
     featured: true,
   },
   {
@@ -91,7 +91,7 @@ export const projects: Project[] = [
     tech: ["PHP", "CodeIgniter", "MySQL", "Midtrans", "Bootstrap"],
     github: "https://github.com/adaalif/Techporia-main-2024/tree/main",
     live: "#",
-    image: "/projects/Techporia.png",
+    image: "/projects/Techporia.webp",
     featured: true,
   },
 ];
