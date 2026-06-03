@@ -82,7 +82,7 @@ export function Navbar() {
             className="font-display font-bold text-lg tracking-tight hover:text-[var(--accent)] transition-colors"
             aria-label="Home"
           >
-            {personalInfo.name.split(" ")[0]}
+            {personalInfo.name.split(" ")[1]}
             <span className="text-[var(--accent)]">.</span>
           </a>
 

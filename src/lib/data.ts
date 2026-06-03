@@ -47,6 +47,18 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "arXiv Research Assistant",
+    description:
+      "A test-driven, modular Agentic RAG (Retrieval-Augmented Generation) pipeline over arXiv papers.",
+    longDescription:
+      "An intelligent, state-driven workflow built with LangGraph to autonomously fulfill user queries. It features decision-making with knowledge gap analysis, dual confidence scoring, and dynamic arXiv API fetching to ensure accurate answers without hallucinations.",
+    tech: ["Python", "LangGraph", "Pinecone", "Instructor"],
+    github: "https://github.com/adaalif/Agentic-RAG",
+    live: "https://huggingface.co/spaces/alifalferdiansyah/Arxiv-Chatbot",
+    image: "/projects/arxiv-rag.webp",
+    featured: true,
+  },
+  {
     title: "AI Financial Tracker & Receipt Scanner",
     description:
       "An intelligent financial tracking application with AI-powered receipt scanning. Automatically extracts transaction data from receipts using computer vision and categorizes expenses for budgeting insights.",
